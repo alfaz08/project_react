@@ -1,3 +1,4 @@
+import LastCard from "./LastCard";
 import SingleBestCard from "./SingleBestCard";
 
 
@@ -49,6 +50,7 @@ const BestCard = () => {
         {
           cards?.map(card=><SingleBestCard key={card.id} card={card}></SingleBestCard>)
         }
+        <LastCard></LastCard>
       </div>
     </div>
   );
