@@ -99,7 +99,7 @@ const LastCard = () => {
             </div>
   </div>
 
-  <div className="mt-6 md:mt-72 bg-blue-500 w-4/6 rounded-r-2xl  h-16 flex justify-center items-center rounded-l-2xl ">
+  <div className="mt-6 md:mt-72 bg-blue-500 w-4/6 rounded-r-2xl  h-12 flex justify-center items-center rounded-l-2xl ">
     <button className="text-xl text-white ">View</button>
   </div>
 </div>

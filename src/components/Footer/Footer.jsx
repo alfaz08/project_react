@@ -26,7 +26,7 @@ const Footer = () => {
       <h2  className='mt-4 text-gray-400'>About</h2>
       </div>
 
-      <div className='flex mt-16 mb-24'>
+      <div className='flex mt-20 mb-24'>
       <h2 className='text-gray-400'>United States</h2>
       <MdKeyboardArrowDown className='text-gray-400 text-2xl'/>
 
