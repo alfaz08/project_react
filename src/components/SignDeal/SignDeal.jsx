@@ -2,7 +2,7 @@
 const SignDeal = () => {
   return (
     <div>
-      <div className=" max-w-5xl mx-auto">
+      <div className=" max-w-5xl mx-auto mb-8 mt-12">
       <div className="flex justify-between mt-8 mb-4">
         <h2 className="text-4xl text-gray-500 md:ml-8">Sign up and get exclusive <br /> <span className="">special deals</span> </h2>
          <button className="bg-blue-500 md:max-w-full mt-2 h-12 text-white md:px-4 rounded-r-lg">Sign Up</button>

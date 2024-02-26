@@ -1,4 +1,5 @@
 import { MdKeyboardArrowDown } from "react-icons/md";
+import { IoDiamondOutline } from "react-icons/io5";
 
 import { BsTrophy } from "react-icons/bs";
 import { HiOutlineInformationCircle } from "react-icons/hi";
@@ -14,9 +15,15 @@ const SingleBestCard = ({card}) => {
      <div className='grid grid-cols-1 md:grid-cols-3 mt-4'>
       <div>
         {
-          card.best ?
+          card.best==='Best Choice' ?
           <div className="p-2 flex gap-2  bg-orange-500 text-white text-xl w-44 rounded-r-2xl" >
         <BsTrophy className="mt-1 text-center"/>
+          <h2 className="text-center">{card.best}</h2>
+        </div>
+        :
+        card.best==='Best Value' ?
+        <div className="p-2 flex gap-2  bg-orange-500 text-white text-xl w-44 rounded-r-2xl" >
+        <IoDiamondOutline className="mt-1 text-center"/>
           <h2 className="text-center">{card.best}</h2>
         </div>
         :

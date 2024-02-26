@@ -21,7 +21,7 @@ const BestCard = () => {
     {
       "id":"2",
       "image":"https://i.ibb.co/GkrTdR9/Screenshot-1-removebg-preview.png",
-      "best":"Best Choice",
+      "best":"Best Value",
       "desFirst":"SiteCraft 68-Inch Ultimate Web Design Studio-",
       "des":"Advanced Site Creation Toolkit, Intuitive Drag-and-Drop Editor for Dynamic Websites and E-commerce Platforms (Green/White)",
        "main":"[What You Get!: Gain access to the SiteCraft design studio, featuring a robust selection of design elements, SEO optimization tools, and e-commerce integrations.        ",
