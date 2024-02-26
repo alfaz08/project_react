@@ -1,5 +1,6 @@
 import BestCard from "./BestCard/BestCard"
 import Header from "./Header/Header"
+import Footer from "./components/Footer/Footer"
 import Navbar from "./components/Navbar/Navbar"
 import RelatedDeal from "./components/RelatedDeal/RelatedDeal"
 import SignDeal from "./components/SignDeal/SignDeal"
@@ -20,6 +21,7 @@ function App() {
       <RelatedDeal></RelatedDeal>
       <SignDeal></SignDeal>
      </div>
+     <Footer></Footer>
     </>
   )
 }
